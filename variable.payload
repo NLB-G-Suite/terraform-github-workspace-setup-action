@@ -4,7 +4,7 @@
     "attributes": {
       "key": T_KEY,
       "value": T_VALUE,
-      "category": "T_CATEGORY",
+      "category": T_CATEGORY,
       "hcl": false,
       "sensitive": T_SECURED
     },
