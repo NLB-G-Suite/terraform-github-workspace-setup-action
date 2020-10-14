@@ -1,5 +1,5 @@
 # action.yml
-name: 'Terraform Workspace setup'
+name: 'Terraform Cloud Workspace setup'
 description: 'Setup a Terraform Cloud/Enterprise workspace'
 inputs:
   hostname:
