@@ -71,12 +71,15 @@ jobs:
             {
               "key": "region",
               "value": "eu-west-3",
-              "sensitive": "false"
+              "sensitive": "false",
+              "category": "terraform"
+              
             },
             {
               "key": "access_key_id",
               "value": "${{ secrets.AWS_ACCESS_KEY_ID }}",
-              "sensitive": "true"
+              "sensitive": "true",
+              "category": "env"
             }
           '
           
