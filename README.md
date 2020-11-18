@@ -18,6 +18,16 @@
 | vars         | Workspace variables definition | false    |
 
 
+Allows on the vars -> to have both:
+ ```
+ "category": "terraform"
+ ```
+ 
+ or
+ ```
+ "category": "env"
+```
+ 
 
 ## Usage
 
@@ -36,7 +46,7 @@ jobs:
 
       - name: setup workspace
         id: workspace
-        uses: recarnot/terraform-github-workspace-setup-action@master
+        uses: reguengos/terraform-github-workspace-setup-action@master
         with:
           organization: ${{ secrets.TF_ORGANIZATION }}
           workspace: "my-workspace-name"
@@ -62,7 +72,7 @@ jobs:
 
       - name: setup workspace
         id: workspace
-        uses: recarnot/terraform-github-workspace-setup-action@master
+        uses: reguengos/terraform-github-workspace-setup-action@master
         with:
           organization: ${{ secrets.TF_ORGANIZATION }}
           workspace: "my-workspace-name"
